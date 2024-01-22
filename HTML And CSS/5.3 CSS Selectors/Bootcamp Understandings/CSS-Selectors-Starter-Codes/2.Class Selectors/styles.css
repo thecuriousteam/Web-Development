@@ -1,0 +1,31 @@
+.main-title {
+	text-align: center;
+	color: #8800ff;
+}
+
+.tagline {
+	text-align: center;
+	font-style: italic;
+	color: #8800ff;
+}
+
+.featured-books {
+	color: #8800ff;
+	background-color: yellow;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.section-title {
+	color: #8800ff;
+}
+
+.book-title {
+	margin-left: 20px;
+}
+
+.contact-info {
+	color: red;
+	font-weight: bold;
+}

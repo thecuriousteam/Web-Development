@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Layout Example</title>
+  </head>
+  <body>
+    <header><h2>HTML Layout</h2></header>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#header">header</a></li>
+        </ul>
+        <ul>
+          <li><a href="#nav">nav</a></li>
+        </ul>
+        <ul>
+          <li><a href="#section">section</a></li>
+        </ul>
+        <ul>
+          <li><a href="#article">article</a></li>
+        </ul>
+        <ul>
+          <li><a href="#footer">footer</a></li>
+        </ul>
+        <ul>
+          <li><a href="#details">details</a></li>
+        </ul>
+        <ul>
+          <li><a href="#summary">summary</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <h3>HTML Blogging Site</h3>
+        <p>This is Example For HTML Blogging Layout</p></article>
+    </section>
+
+    <section>
+      <h3>HTML Semantic Elements</h3>
+      <ol>
+        <li id="header">
+          <strong>header</strong> - Defines a header for a document or a section
+        </li>
+        <li id="nav">
+          <strong>nav</strong> - Defines a set of navigation links
+        </li>
+        <li id="section">
+          <strong>section</strong> - Defines a section in a document (HTML
+          <strong>section </strong>is a semantic HTML tag used to define a
+          section in the document that generally includes a group of related
+          content)
+        </li>
+        <li id="article">
+          <strong>article</strong> - Defines an independent, self-contained
+          content (can be reused.)
+        </li>
+        <li id="aside">
+          <strong>aside</strong> - Defines content aside from the content (like
+          a sidebar and The HTML <strong>aside</strong> tag is used to represent
+          a portion of a document that is indirectly related to the main
+          content)
+        </li>
+        <li id="footer">
+          <strong>footer</strong> - Defines a footer for a document or a section
+        </li>
+        <li id="details">
+          <strong>details</strong> - Defines additional details that the user
+          can open and close on demand
+        </li>
+        <li id="summary">
+          <strong>summary</strong> - Defines a heading for the <strong
+            >details</strong
+          >
+          element
+        </li>
+      </ol>
+    </section>
+    <footer>
+      <p>HTML Blogging Example</p>
+    </footer>
+  </body>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #f9fafc;
+      font-family: "euclid_circular_a", "Arial", "Source Sans Pro",
+        "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      padding: 10px;
+    }
+    header {
+      font-size: 30px;
+      font-weight: 900;
+      color: #25265e;
+      text-align: center;
+    }
+    h3 {
+      font-size: 20px;
+    }
+
+    ol {
+      font-family: "Courier New", Courier, monospace;
+      font-weight: 300;
+    }
+
+    nav {
+      float: left;
+      width: 30%;
+      padding: 1px;
+    }
+    nav ul {
+      font-size: 18px;
+    }
+
+    article{
+      float: left;
+      width: 70%;
+
+      /* padding: 10px; */
+      height:300px;
+
+    }
+
+    section::after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    footer{
+      text-align: center;
+      padding: 1px;
+      font-size: 30px;
+      font-weight: 900;
+    }
+  </style>
+</html>

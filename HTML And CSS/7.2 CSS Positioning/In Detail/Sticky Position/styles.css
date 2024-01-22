@@ -1,0 +1,18 @@
+.parent {
+	background-color: yellow;
+	position: sticky;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	bottom: 100px;
+	right: 200px;
+}
+
+.child {
+	background-color: red;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin-left: 100px;
+}

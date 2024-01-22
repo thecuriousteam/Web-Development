@@ -1,0 +1,16 @@
+.parent {
+	background-color: yellow;
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+.child {
+	background-color: red;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin-left: 100px;
+}

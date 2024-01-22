@@ -1,0 +1,38 @@
+#header {
+	background-color: darkturquoise;
+	padding: 25px;
+	color: white;
+}
+
+#name {
+	text-align: center;
+}
+
+#project1 {
+	color: green;
+}
+
+#project2 {
+	color: green;
+}
+
+#about {
+	background-color: antiquewhite;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#projects {
+	background-color: rgba(0, 128, 0, 0.249);
+	padding: 20px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#footer {
+	text-align: center;
+	background-color: silver;
+	padding: 10px;
+	color: white;
+}

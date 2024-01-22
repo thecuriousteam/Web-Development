@@ -1,0 +1,19 @@
+.parent {
+	background-color: yellow;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	/* we can move top, left, right and bottom */
+	top: 200px;
+	left: 100px;
+}
+
+.child {
+	background-color: red;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin-left: 200px;
+}

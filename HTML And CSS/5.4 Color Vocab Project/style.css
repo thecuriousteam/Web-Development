@@ -1,0 +1,61 @@
+h2 {
+	font-weight: 20px;
+}
+
+h2[id="red"] {
+	color: red;
+}
+
+h2[id="blue"] {
+	color: blue;
+}
+
+h2[id="orange"] {
+	color: orange;
+}
+
+h2[id="green"] {
+	color: green;
+}
+
+h2[id="yellow"] {
+	color: yellow;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+/*
+Alternative Selecter Option
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.color-title {
+  font-weight: normal;
+}
+
+#red {
+  color: red;
+}
+
+#blue {
+  color: blue;
+}
+
+#orange {
+  color: orange;
+}
+
+#green {
+  color: green;
+}
+
+#yellow {
+  color: yellow;
+}
+ */

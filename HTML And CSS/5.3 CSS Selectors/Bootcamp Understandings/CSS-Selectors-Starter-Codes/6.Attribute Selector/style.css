@@ -1,0 +1,26 @@
+li[value="red"] {
+	color: red;
+}
+
+li[value="orange"] {
+	color: orange;
+}
+
+li[value="blue"] {
+	color: blue;
+}
+
+p[value="one"] {
+	color: blue;
+	font-weight: bold;
+}
+
+p[value="two"] {
+	color: rgba(0, 0, 255, 0.656);
+	font-weight: bold;
+}
+
+p[value="three"] {
+	color: rgba(0, 0, 255, 0.908);
+	font-weight: bold;
+}

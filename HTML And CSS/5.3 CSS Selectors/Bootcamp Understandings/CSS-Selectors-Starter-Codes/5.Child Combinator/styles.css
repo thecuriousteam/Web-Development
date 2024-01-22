@@ -1,0 +1,32 @@
+#departments {
+	/* background-color: cornsilk; */
+	padding: 10px;
+}
+
+#departments > .department {
+	color: red;
+	background-color: cornsilk;
+	margin-left: 10px;
+}
+
+#departments h2 {
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+#departments > div {
+	padding: 10px;
+}
+
+#departments > .department > div {
+	color: blue;
+}
+
+#departments > .department > .faculty {
+	background-color: aquamarine;
+	padding: 10px;
+}
+
+#departments > .department > .faculty > p {
+	color: orangered;
+}

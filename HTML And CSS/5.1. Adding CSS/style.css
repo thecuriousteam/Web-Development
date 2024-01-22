@@ -1,0 +1,11 @@
+html{
+  background-color: white;
+}
+
+h1.external_css{
+  text-align: center;
+  color: black;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  width: 50%;
+}

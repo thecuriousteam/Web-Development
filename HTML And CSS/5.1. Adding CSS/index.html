@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Adding CSS</title>
+	</head>
+
+	<body>
+		<h1>Three Methods of Adding CSS</h1>
+		<!-- Create 3 Links to The 3 Webpages: inline, internal and external -->
+
+		<h1 style="text-align: center; color: #8800ff">Inline CSS</h1>
+
+		<h1 class="internal_css">Internal CSS</h1>
+		<!-- customizing the custom css using class -->
+		<style>
+			h1.internal_css {
+				text-align: center;
+				color: #8800ff;
+				border: 2px solid #8800ff;
+			}
+		</style>
+
+		<!-- specifing the external css with link tag -->
+		<link rel="stylesheet" href="./style.css" />
+		<h1 class="external_css">External CSS</h1>
+	</body>
+</html>

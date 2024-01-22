@@ -1,0 +1,15 @@
+body {
+	background-color: black;
+}
+
+img {
+	border: solid 10px white;
+	width: 100%;
+}
+
+div {
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}

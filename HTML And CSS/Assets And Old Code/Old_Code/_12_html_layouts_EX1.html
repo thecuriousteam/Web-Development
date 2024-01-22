@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Layout</title>
+  </head>
+  <body>
+    <!-- HTML Layouts -->
+    <header>
+      <h2>Title</h2>
+    </header>
+
+    <section>
+      <!-- NAV -->
+      <nav>
+        <!-- Navigation Link -->
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+
+      <!-- article -->
+      <article>
+        <h1>Home Page</h1>
+        <p>This is home page data</p>
+      </article>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      header {
+        padding: 10px;
+        text-align: center;
+        background-color: aquamarine;
+      }
+      h2 {
+        font-size: 40px;
+        text-align: center;
+        color: purple;
+      }
+
+      nav {
+        padding: 0px;
+        float: left;
+        width: 30%;
+        height: 300px;
+        background-color: #fff;
+        padding: 20px;
+      }
+
+      nav ul {
+        padding: 2px;
+        text-decoration: none !important;
+        list-style: none;
+        font-size: 18px;
+        text-align: center;
+      }
+      article {
+        float: left;
+        height: 300px;
+        padding: 20px;
+        width: 70%;
+        background-color: aqua;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        font-size: 32px;
+        background-color: aquamarine;
+      }
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </body>
+</html>

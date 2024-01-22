@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- style sheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Modern Login Page</title>
+</head>
+<body>
+  <!-- creating a container -->
+  <div class="container" id="container">
+    <div class="form-container sign-up">
+      <form>
+        <h1>Create Account</h1>
+        <!-- inorder to make the icons as clickable we need to wrap inside the <a> -->
+          <!-- sign-up form -->
+<!-- adding icons -->
+          <div class="social-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>  
+        <span> or use email for registration</span>
+        <!-- we need to use span tag inside <p> tag to make it one by one -->
+
+          <!-- we are taking the input -->
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input type="password" placeholder="Your Password">
+        <!-- adding button -->
+        <button> Sign Up</button>
+
+      </form>
+    </div>
+
+    <!-- signin form -->
+    <div class="form-container sign-in">
+      <form>
+        <h1>Sign In</h1>
+        <!-- inorder to make the icons as clickable we need to wrap inside the <a> -->
+        
+          <!-- adding icons -->
+          <div class="social-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>          
+        <span> or use your email and password</span>
+
+          <!-- we are taking the input -->
+        <input type="email" placeholder="Your Email">
+        <input type="password" placeholder="Your Password">
+
+        <a href="#" style="text-decoration: underline; color: #512da8;">Forget Password</a>
+        <!-- adding button -->
+        <button> Sign In</button>
+      </form>
+    </div>
+    <!-- toggle container -->
+    <div class="toggle-container">
+      <!-- adding toggle left -->
+      <div class="toggle">
+        <div class="toggle-panel toggle-left">
+          <h1>Welcome Back!</h1>
+          <p>Enter your personal details to use all of site features</p>
+          <button class="hidden" id="login">Sign In</button>
+        </div>
+
+        <!-- toggle right -->
+        <div class="toggle-panel toggle-right">
+          <h1>Hello Developer !</h1>
+          <p>Register with your personal details to use all of site features</p>
+          <button class="hidden" id="register">Sign Up</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- java script -->
+  <script src="script.js"></script>
+</body>
+</html>

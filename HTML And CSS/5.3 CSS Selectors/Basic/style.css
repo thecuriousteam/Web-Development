@@ -1,0 +1,48 @@
+ol {
+	margin-left: -40px;
+	margin-top: -20px;
+	list-style-position: inside;
+}
+
+/*
+Ways of Adding CSS Selectors
+  1. Type or Element Selectors
+  2. Class Selectors
+  3. ID Selectors
+  4. Attribute Selectors
+  5. Universal Selector
+ */
+
+/* Write your CSS below, don't change the rules above. */
+/*
+<!-- TODO 1: Set the CSS for all paragraph tags to "color: red" -->
+<!-- TODO 2: Set the CSS for all elements with a class of "note" to "font-size: 20px" -->
+<!-- TODO 3: Set the CSS for the element with an id of "id-selector-demo" to "color: green" -->
+<!-- TODO 4: Set the CSS for the li elements that have the "value" attribute set to "4" to have "color: blue" -->
+<!-- TODO 5: Set all elements to have "text-align: center" -->
+*/
+
+/* 1. Type or Element Selectors */
+p {
+	color: red;
+}
+
+/* 2. Class Selectors */
+.note {
+	font-size: 20px;
+}
+
+/* 3. ID Selectors */
+#id-selector-demo {
+	color: green;
+}
+
+/* 4. Attribute Selectors */
+li[value="4"] {
+	color: blue;
+}
+
+/* 5. Universal Selector */
+* {
+	text-align: center;
+}

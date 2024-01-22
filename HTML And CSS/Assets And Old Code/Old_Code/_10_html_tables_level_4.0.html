@@ -1,0 +1,57 @@
+<!-- column span example -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Colspan Example</title>
+</head>
+<body>
+
+  <!-- styling table -->
+  <style>
+
+    table, tr, td,th{
+      border: 2px black solid ;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+
+    th{
+      color: black;
+      background-color: lightblue;
+    }
+
+    td{
+      text-align: center;
+    }
+  </style>
+
+  <h1 style="text-align: center; text-decoration: underline;">Table Example - Colspan Usage</h1>
+  <!-- table Colspan -->
+  <table>
+    <!-- headers -->
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+    <th>
+    First Name
+    </th>
+    <th>Last Name</th>
+    <th>Age In Years</th>
+    </tr>
+
+    <!-- table body -->
+    <tr>
+      <td>Abc</td>
+      <td>def</td>
+      <td>10 yers</td>
+    </tr>
+    <tr>
+      <td>bbb</td>
+      <td>ccc</td>
+      <td>12 yers</td>
+    </tr>
+  </table>
+</body>
+</html>
